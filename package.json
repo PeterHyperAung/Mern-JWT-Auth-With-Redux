@@ -1,0 +1,18 @@
+{
+  "name": "mern-jwt-auth-with-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run` watch --prefix backend",
+    "server": "nodemon backend/dist/index.js",
+    "client": "npm run start --prefix frontend",
+    "dev": "concurrently \"yarn run watch\" \"yarn run server\" \"yarn run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
